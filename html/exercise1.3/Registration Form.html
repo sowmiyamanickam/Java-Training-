@@ -1,0 +1,30 @@
+<html>
+<head>
+<title> Registration Form</title>
+</head>
+<body>
+User ID <input type="text" name="userid"><br/><br/>
+First Name<input type="text" name="firstname"><br/><br/>
+Last Name<input type="text" name="lastname"><br/><br/>
+Address<input type="textarea" col="30" row="30" name="address"><br/><br/>
+Country<input list="country">
+<datalist id="country">
+<option value="India">
+<option value="America">
+<option value="France">
+<option value="Australia">
+<option value="Canada">
+</datalist>
+<br/><br/>
+
+Phone <input type="tel" name="phone"> <br/><br/>
+Zip Code <input type="text" name="zipcode"><br/><br/>
+Gender<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br/><br/>
+<button><a href="HtmlPage.html">Submit</a></button>
+<button>Reset</button>
