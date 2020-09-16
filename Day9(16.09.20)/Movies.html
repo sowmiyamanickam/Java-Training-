@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movies Dashboard </title>
+<style>
+body{
+background-image:url('img1.jpg');
+width:100%
+height:100%
+}
+div
+{
+   width:500 pixel;
+   height:250 pixel;
+   background-color:maroon;
+   border:1px solid black;
+   color: white;
+}
+.box{
+    width:500 pixel;
+    height:250 pixel;
+    border: 1 px solid black ;
+    background-color:white; 
+    color:black;
+}
+ul {
+  list-style: none;
+}
+ul li::before{
+    
+    content: "\2022";
+    color:purple;
+    display: inline-block;
+    font-weight: bold;
+    width: 1em; 
+    margin-left: -1em;
+}
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+    <h2 style="text-align:center;"><u>MOVIES DASHBOARD</u></h2>
+    <div>
+<p>THIS IS AN INTRODUCTION </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+ Proin pharetra nisi sed ultrices tristique.
+ Pellentesque tincidunt velit eget mauris lobortis tincidunt.
+ Cras in sem nec risus pellentesque pretium.
+ Donec nisl sapien, commodo vel leo vel, bibendum malesuada tortor.
+ Aliquam eu blandit ex. Duis commodo semper lectus, sit amet faucibus eros vestibulum vel.
+ Morbi eu cursus neque. Ut urna sapien, posuere eu faucibus ac, luctus sit amet purus.</p>
+<p> THE FOLLOWING INFORMATIONS ARE DISPLAYED FOR THE MOVIES</p>
+<ul type="square">
+    <li>Movie Name </li>
+    <li>Movie Artist </li>
+    <li>Movie Release Year </li>
+    <li>IMDB Link </li>
+</ul>
+</div>
+<br/>
+<div class="box">
+<h4 style="text-align:center;background-image:url('img1.jpg');">Movies List</h4>
+<table style="width:100%">
+  <tr>
+    <th>Movie Name</th>
+    <th>Artist</th>
+    <th>Release Year</th>
+    <th>IMDB Link</th>
+  </tr>
+  <tr>
+    <th>Persuit of Happiness</th>
+    <th>Will Smith</th>
+    <th>2006</th>
+    <th><a href="imdblink">Imdb link</a></th>
+  </tr>
+  <tr>
+    <th>Slumdog Millionair</th>
+    <th>Dev Patel, Anil Kapoor</th>
+    <th>2008</th>
+    <th><a href="imdblink">Imdb link</a></th>
+  </tr>
+  <tr>
+    <th>Vantage Point</th>
+    <th>Denise Quiat, Mathew Fox</th>
+    <th>2008</th>
+    <th><a href="imdblink">Imdb link</a></th>
+  </tr>
+  <tr>
+    <th>Argo</th>
+    <th>Ben Affleck, Bryan Cranston</th>
+    <th>2012</th>
+    <th><a href="imdblink">Imdb link</a></th>
+  </tr>
+  </table>
+<p>The above Table represent Movie Details</p>
+</div>
+</body>
+</html>
