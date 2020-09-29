@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet> 
+<servlet-name>ReqServlet</servlet-name>
+<servlet-class>com.cts.ReqServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ReqServlet</servlet-name>
+<url-pattern>/ReqServlet</url-pattern>
+</servlet-mapping>
+</web-app>

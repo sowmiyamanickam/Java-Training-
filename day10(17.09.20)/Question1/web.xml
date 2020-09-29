@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet> 
+<servlet-name>PostServlet</servlet-name>
+<servlet-class>com.pack.PostServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>PostServlet</servlet-name>
+<url-pattern>/PostServlet</url-pattern>
+</servlet-mapping>
+</web-app>
